@@ -33,7 +33,7 @@ def get_time():
     return curr
 
 def bootapp():
-    app.run(debug=True,port=8080, threaded=True, host=('0.0.0.0'))
+    app.run(debug=True, threaded=True, host=('0.0.0.0'))
 
 
 if __name__ == '__main__':
